@@ -1,0 +1,60 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 15px;
+  background-color: #be3144;
+  height: 65px;
+  align-items: center;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding-right: 15px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(78, 77, 77);
+}
+.project-tile {
+  color: white;
+  font-size: 55px;
+  padding-bottom: 0px;
+}
+.web {
+  color: #be3144;
+  font-family: italic;
+  font-size: 40px;
+}
+#project-tile {
+  text-align: center;
+  background-color: #45567d;
+  /* width: 300px */
+}
+@media (max-width: 1500px) {
+  #projects {
+    text-align: center;
+    background-color: #45567d;
+  }
+  #profile-link {
+    text-decoration: none;
+  }
+  .project-image {
+    width: 100%;
+  }
+}
